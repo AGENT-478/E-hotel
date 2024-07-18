@@ -1,0 +1,216 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Elite Hotel Sitemap</title>
+    <link rel="stylesheet" type="text/css" href=".css">
+    <style>
+       @import url('https://fonts.googleapis.com/css2?family=Poppins:wght@100;200;300;400;500;600;700;800;900&display=swap');
+
+body {
+    font-family: 'Poppins', sans-serif;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    flex-direction: column;
+    min-height: 100vh;
+    background-color: #f4f4f9;
+    color: #555;
+}
+
+nav {
+    width: 100%;
+    padding: 10px 20px;
+    box-sizing: border-box;
+    position: fixed;
+    top: 0;
+    left: 0;
+    z-index: 1000;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: #ccc;
+    color: white;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+nav h1 {
+    margin: 0;
+}
+
+nav ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    display: flex;
+}
+
+nav ul li {
+    margin: 0 10px;
+}
+
+nav ul li a {
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 10px 15px;
+    text-decoration: none;
+    border-radius: 5px;
+    transition: background-color 0.3s;
+}
+
+nav ul li a:hover, nav ul li a.active {
+    background-color: #f54298;
+}
+
+.spacer {
+    height: 60px;
+}
+
+.policy-page .content {
+    padding: 80px 20px 20px;
+    background-color: #fff;
+    flex: 1;
+    text-align: center;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    margin: 20px;
+}
+
+.policy-page .content h1 {
+    font-size: 2.5em;
+    color: #333;
+    margin-bottom: 20px;
+}
+
+.policy-page .content p, 
+.policy-page .content h2 {
+    font-size: 1.2em;
+    color: #555;
+    margin-bottom: 15px;
+    line-height: 1.5;
+}
+
+.policy-page .content a {
+    color: #f54298;
+    text-decoration: none;
+    border-bottom: 1px solid #f54298;
+    transition: color 0.3s, border-bottom-color 0.3s;
+}
+
+.policy-page .content a:hover {
+    color: #d93686;
+    border-bottom-color: #d93686;
+}
+
+footer {
+    background-color: #ccc;
+    color: black;
+    padding: 20px 0;
+    text-align: center;
+    width: 100%;
+    left: 0;
+    position: relative;
+    bottom: 0;
+    margin-top: auto;
+    box-shadow: 0 -2px 4px rgba(0, 0, 0, 0.1);
+}
+
+footer p {
+    margin: 0;
+    padding: 0 13px;
+    font-size: 1em;
+}
+
+footer ul {
+    display: flex;
+    justify-content: center;
+    padding: 0;
+    list-style: none;
+    margin: 10px 0 0;
+}
+
+footer ul li {
+    margin: 0 10px;
+}
+
+footer ul li a {
+    color: black;
+    text-decoration: none;
+    transition: color 0.3s;
+}
+
+footer ul li a:hover {
+    text-decoration: underline;
+    color: #f54298;
+}
+ 
+    </style>
+</head>
+<body class="sitemap-page">
+    <div class="container">
+        <nav>
+            <h1>Elite Hotel</h1>
+            <ul>
+                <li><a href="home.html">Home</a></li>
+                <li><a href="gallery.html">Gallery</a></li>
+                <li><a href="booking.html">Booking</a></li>
+                <li><a href="services.html">Services</a></li>
+                <li><a href="about.html">About</a></li>
+                <li><a href="contact.html">Contact Us</a></li>
+            </ul>
+        </nav>
+        <div class="spacer"></div>
+        <div class="sitemap-section">
+            <h2>Website Sitemap</h2>
+            <ul class="sitemap">
+                <li><a href="home.html">Home</a></li>
+                <li>
+                    <a href="gallery.html">Gallery</a>
+                    <ul>
+                        <li><a href="gallery.html#deluxe">Deluxe Room</a></li>
+                        <li><a href="gallery.html#executive">Executive Suite</a></li>
+                        <li><a href="gallery.html#presidential">Presidential Suite</a></li>
+                    </ul>
+                </li>
+                <li>
+                    <a href="booking.html">Booking</a>
+                    <ul>
+                        <li><a href="booking.html#form">Booking Form</a></li>
+                        <li><a href="booking.html#confirmation">Confirmation Page</a></li>
+                    </ul>
+                </li>
+                <li>
+                    <a href="help.html">Help</a>
+                    <ul>
+                        <li><a href="help.html#room-service">Room Service</a></li>
+                        <li><a href="help.html#spa-treatment">Spa Treatment</a></li>
+                        <li><a href="help.html#fitness-center">Fitness Center</a></li>
+                    </ul>
+                </li>
+                <li>
+                    <a href="about.html">About</a>
+                    <ul>
+                        <li><a href="about.html#our-story">Our Story</a></li>
+                        <li><a href="about.html#team">Team</a></li>
+                        <li><a href="about.html#careers">Careers</a></li>
+                    </ul>
+                </li>
+                <li><a href="contact.html">Contact Us</a></li>
+                <li><a href="privacy.html">Privacy Policy</a></li>
+                <li><a href="terms.html">Terms of Service</a></li>
+            </ul>
+        </div>
+        <footer>
+            <p>&copy; 2024 Elite Hotel. All rights reserved.</p>
+            <ul>
+                <li><a href="contact.html">Contact Us</a></li>
+                <li><a href="privacy.html">Privacy Policy</a></li>
+                <li><a href="terms.html">Terms of Service</a></li>
+                <li><a href="sitemap.html">Sitemap</a></li>
+            </ul>
+        </footer>
+    </div>
+</body>
+</html>
